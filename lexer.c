@@ -32,7 +32,7 @@ int is_delimiter(char ch) {
 
 // Função para verificar se um caractere é um operador
 int is_operator(char ch) {
-    return ch == '+' || ch == '-' || ch == '*' || ch == '/';
+    return ch == '+' || ch == '-' || ch == '*' || ch == '/' || ch == '(' || ch == ')';
 }
 
 // Função para verificar se um caractere é um dígito
